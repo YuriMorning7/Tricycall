@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  background-color: transparent; /* Remove background color */
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-image: url('./image/homebckgrnd.jpeg');
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div {
+  width: 380px;
+  height: 629px;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  padding: 50px 35px 35px 35px;
+}
+
+.logo {
+  background: url("./image/homelogo.png");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  color: #acdf87;
+  padding-top: 24px;
+}
+
+.login-in {
+  width: 100%;
+  padding: 60px 5px 5px 5px;
+}
+
+.username,
+.password {
+  box-shadow: inset 5px 5px 8px #cbced1, inset -5px -5px 8px #ffffff;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.login-in input[type='username'],
+.login-in input[type='password'] {
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 18px 10px 18px 1px;
+}
+
+.login-in .lni {
+  height: 22px;
+  color: #999;
+  margin: 0 10px -3px 25px;
+  font-size: 18px;
+}
+
+.buttons {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #acdf87;
+  height: 60px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 5px 5px 8px #b1b1b1, -5px -5px 8px #ffffff;
+}
+
+.buttons:hover {
+  background: #000;
+}
+
+.buttons:active {
+  background: #acdf87;
+}
+
+.link {
+  padding: 20px;
+ text-align: center;
+}
+
+.link a {
+  color: #aaa;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.link a:hover {
+  color: #000;
+}

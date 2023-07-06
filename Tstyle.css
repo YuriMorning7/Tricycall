@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-image: url('./image/homebckgrnd.jpeg');
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  background-color: transparent; /* Remove background color */
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 750px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.4); /* Adjust the alpha value (0.4) to make it more transparent */
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.container-img {
+  margin-right: 20px;
+}
+
+.container:last-child {
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #ACDF87;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-btn ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.login-btn li {
+  margin-left: 10px;
+}
+
+.login-btn a {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.services-wrapper {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-wrapper h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.services-wrapper section {
+  display: flex;
+  justify-content: center;
+}
+
+.services-wrapper .container {
+  text-align: center;
+  padding: 40px;
+  flex: 1;
+  margin: 0 20px; /* Adjust the margin as needed for spacing between containers */
+}
+
+.services-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services-wrapper p {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
